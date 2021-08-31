@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import email from '../../assets/email.svg';
 import location from '../../assets/location.svg';
 import phone from '../../assets/phone.svg';
+import '../user/user.css'
 
 const User = () => {
     const [users, setUsers] = useState("");

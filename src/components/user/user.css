@@ -1,0 +1,20 @@
+.user {
+  border: 1px black solid;
+  border-radius: 3px;
+  background: linear-gradient(to right, #000046, #3eb4d4, #000046);
+  box-shadow: 8px 12px 30px 0px rgba(22, 156, 201, 0.527);
+  height: 400px;
+  width: 400px;
+  padding: 50px;
+  margin: 10vh;
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+}
+.image{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
