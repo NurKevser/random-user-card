@@ -7,8 +7,6 @@ import phone from '../../assets/phone.svg';
 const User = () => {
     const [users, setUsers] = useState("");
 
-
-
     const initilaizeUser = () => {
 
         axios.get('https://randomuser.me/api/')
@@ -48,7 +46,7 @@ const User = () => {
                 <div className="info2">Age: {users.dob?.age}</div>
                 <div className="info2">Registered Date: {users.registered?.date.slice(0, 10)}</div>
             </div>
-            <button className="btn">Random User</button>
+            <button className="btn" onClick={initilaizeUser}>Random User</button>
         </div>
     )
 };
