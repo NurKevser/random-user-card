@@ -28,19 +28,19 @@ const User = () => {
         <div className="container">
 
             <div className="user">
-                <div className="image">
-                    <img src={users.picture?.large} alt="" />
+                <div className="box">
+                    <img className="picture" src={users.picture?.large} alt="" />
                     <p className="info">{users.name?.title} {users.name?.first} {users.name?.last}</p>
                 </div>
-                <div className="image">
+                <div className="box">
                     <img className="logo" src={email} alt="" />
                     <p className="info">{users.email}</p>
                 </div>
-                <div className="image">
+                <div className="box">
                     <img className="logo" src={phone} alt="{phone}" />
                     <p className="info">{users.phone}</p>
                 </div>
-                <div className="image">
+                <div className="box">
                     <img className="logo" src={location} alt="{location}" />
                     <p className="info">{users.location?.city} - {users.location?.country}</p>
                 </div>

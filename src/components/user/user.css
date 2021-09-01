@@ -1,20 +1,41 @@
 .user {
   border: 1px black solid;
-  border-radius: 3px;
-  background: linear-gradient(to right, #000046, #3eb4d4, #000046);
-  box-shadow: 8px 12px 30px 0px rgba(22, 156, 201, 0.527);
+  border-radius: 5px;
+  background: linear-gradient(to right, #0b0bc0, #3e90d4, #9fe0f1);
+  box-shadow: 8px 15px 35px 0px rgba(22, 156, 201, 0.527);
   height: 400px;
   width: 400px;
   padding: 50px;
-  margin: 10vh;
+  margin-top: 10vh;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .logo {
   height: 35px;
   width: 35px;
 }
-.image{
-    padding: 10px;
+.box{
+    padding-bottom: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 5px 20px;
 }
+
+.btn{
+  background-color: #0b0bc0;
+  padding: 15px 20px;
+  margin-top: 3vh;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+}
+
+.picture{
+  border-radius: 50%;
+}
+
+
