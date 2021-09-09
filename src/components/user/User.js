@@ -17,8 +17,8 @@ const User = () => {
             });
     }
     useEffect(() => {
-        initilaizeUser();
-    }, [])
+            initilaizeUser();
+    },[])
 
 
 
